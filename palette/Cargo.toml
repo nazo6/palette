@@ -60,6 +60,7 @@ optional = true
 [dependencies.serde]
 version = "1"
 features = ["serde_derive"]
+default-features = false
 optional = true
 
 [dependencies.bytemuck]
